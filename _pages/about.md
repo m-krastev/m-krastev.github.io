@@ -1,13 +1,11 @@
 ---
 permalink: /
-# title: "Matey Krastev"
+title: "Matey Krastev"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-# Matey Krastev
 
 ## Introduction
 
