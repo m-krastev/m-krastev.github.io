@@ -157,8 +157,6 @@ social:
 analytics:
   provider               :  "google-analytics-4" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
-    tracking_id          :
-  google-analytics-4:
     tracking_id          : "G-B2WRR5SD85"
 
 
