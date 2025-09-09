@@ -1,13 +1,13 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
+Matey Krastev:
+  name        : "Matey Krastev"
+  uri         : "https://github.com/m-krastev"
+  email       : "matey.krastev@outlook.com"
+  bio         : "MSc in Artificial Intelligence student at University of Amsterdam"
+  avatar      : "image0.jpg"
+  # twitter     : "name"
+  # google_plus : "Name"
 
 Name2 Name2:
   name        : "Name2 Name2"

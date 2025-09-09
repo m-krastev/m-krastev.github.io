@@ -1,3 +1,50 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const lightbox = document.getElementById("lightbox");
+        const frame = document.getElementById("lightbox-frame");
+        const img = document.getElementById("lightbox-image");
+        const caption = document.getElementById("lightbox-caption");
+        const closeBtn = document.querySelector(".lightbox-close");
+
+        document.querySelectorAll(".lightbox-link").forEach(link => {
+            link.addEventListener("click", function (e) {
+                e.preventDefault();
+                const type = this.dataset.type;
+                const cap = this.dataset.caption || "";
+
+                caption.textContent = cap;
+
+                if (type === "pdf") {
+                    frame.src = this.getAttribute("href");
+                    frame.style.display = "block";
+                    img.style.display = "none";
+                } else if (type === "image") {
+                    img.src = this.getAttribute("href");
+                    img.style.display = "block";
+                    frame.style.display = "none";
+                }
+
+                lightbox.style.display = "flex";
+            });
+        });
+
+        closeBtn.addEventListener("click", () => {
+            lightbox.style.display = "none";
+            frame.src = "";
+            img.src = "";
+            caption.textContent = "";
+        });
+
+        lightbox.addEventListener("click", (e) => {
+            if (e.target === lightbox) {
+                lightbox.style.display = "none";
+                frame.src = "";
+                img.src = "";
+                caption.textContent = "";
+            }
+        });
+    });
+</script>
 
 {% include analytics.html %}

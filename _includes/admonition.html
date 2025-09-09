@@ -1,0 +1,8 @@
+<div class="admonition admonition-{{ include.type | default: 'note' }}">
+    {% if include.title %}
+    <div class="admonition-title">{{ include.title }}</div>
+    {% endif %}
+    <div class="admonition-body">
+        {{ include.body }}
+    </div>
+</div>
