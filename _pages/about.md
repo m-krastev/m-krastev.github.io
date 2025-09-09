@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+# Matey Krastev
+
 ## Introduction
 
 I am an independent AI/ML enthusiast based in Sofia, Bulgaria.
