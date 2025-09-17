@@ -9,7 +9,7 @@ redirect_from:
 
 ## Introduction
 
-I am an independent AI/ML enthusiast based in Sofia, Bulgaria.
+I am an independent AI/ML enthusiast looking for opportunities in AI research and development.
 
 I obtained my M.Sci. in Artificial Intelligence at the University of Amsterdam (UvA), where I was advised by [Prof. Martin R. Oswald](https://oswaldm.github.io/) and supervised by [Dr. Yunchao Yin](https://www.linkedin.com/in/yunchao-yin-345974136/) in the field of AI for healthcare. I received my B. Sc. degree in Computer Science at the University of Aberdeen, where I was first introduced to NLP research by [Prof. Arabella Sinclair](https://j-anie.github.io/index.html).
 
